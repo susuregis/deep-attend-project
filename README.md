@@ -9,14 +9,14 @@ Sistema completo de videoconferência educacional com detecção de atenção e 
 - Redimensionamento de Imagens: Ajusta todas as imagens para o mesmo tamanho.
 - Normalização : Ajusta os valores dos pixels para média 0 e desvio padrão 1
 
-- Data Augmentation (Aumento de Dados) : 
- - Random Horizontal Flip - Espelha a imagem horizontalmente com 50% de probabilidade
- - Color Jitter (Variação de Cor) - Varia aleatoriamente brilho e contraste
- - Random Rotation - Rotaciona a imagem aleatoriamente até 10 graus
- -  Conversão para Tensor - Converte imagem PIL/NumPy para tensor PyTorch
+- *Data Augmentation (Aumento de Dados)* : 
+  - Random Horizontal Flip - Espelha a imagem horizontalmente com 50% de probabilidade
+  - Color Jitter (Variação de Cor) - Varia aleatoriamente brilho e contraste
+  - Random Rotation - Rotaciona a imagem aleatoriamente até 10 graus
+  -  Conversão para Tensor - Converte imagem PIL/NumPy para tensor PyTorch
 
 
--  Mapeamento de Classes (Class Remapping) :  Reduz múltiplas classes originais para 2 classes. 
+-  *Mapeamento de Classes (Class Remapping)* :  Reduz múltiplas classes originais para 2 classes. 
    - Antes : Classes: [Frontal, Left, Right, Up, Down] (5 classes)
    - Depois : Classes: [Atento, Desatento] (2 classes)
 
@@ -45,7 +45,7 @@ Sistema completo de videoconferência educacional com detecção de atenção e 
 
 - Batch Normalization  :  Normaliza ativações entre camadas
 
--  Class Weighting : Ajusta importância de cada classe.
+- Class Weighting : Ajusta importância de cada classe.
 
 #### Técnicas de avaliação 
 
