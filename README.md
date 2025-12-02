@@ -1,4 +1,4 @@
-#### Sistema de Sala de Aula Virtual com IA
+### Sistema de Sala de Aula Virtual com IA
 
 Sistema completo de videoconferência educacional com detecção de atenção e assistente de IA inteligente.
 
