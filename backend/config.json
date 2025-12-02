@@ -1,0 +1,12 @@
+{
+  "img_size": 112,
+  "classes": [
+    "Atento",
+    "Desatento"
+  ],
+  "num_classes": 2,
+  "backbone": "mobilenetv3_small_100",
+  "hidden_lstm": 64,
+  "accuracy": "72.30%",
+  "model_type": "CNN + LSTM"
+}
