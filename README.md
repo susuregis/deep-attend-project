@@ -60,11 +60,8 @@ Sistema completo de videoconferência educacional com detecção de atenção e 
 - Recall       
 - F1-Score 
 
-#### Conjunto        Acurácia     Precisão     Recall       F1-Score    
-#### Treino               71.68%      74.40%      71.68%      72.47%
-#### Validação            60.66%      64.97%      60.66%      61.81%
-#### Teste                71.94%      73.34%      71.94%      72.27%
 
+#### Link do dataset ultilizado : https://universe.roboflow.com/antu-chowdhury/focus-of-attention
 
 #### Funcionalidades do sistema
 
