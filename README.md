@@ -2,6 +2,9 @@
 
 Sistema completo de videoconferência educacional com detecção de atenção e assistente de IA inteligente.
 
+<img width="1000" height="667" alt="image" src="https://github.com/user-attachments/assets/b4242344-d582-43e1-ab53-6894e23943e5" />
+
+
 #### Treinamento do modelo de visão computacional com deep learning.
 
 #### Técnicas ultilizadas para o processamento das imagens:
