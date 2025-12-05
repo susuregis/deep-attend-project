@@ -63,7 +63,7 @@ Sistema completo de videoconferência educacional com detecção de atenção e 
 
 #### Link do dataset ultilizado : https://universe.roboflow.com/antu-chowdhury/focus-of-attention
 
-#### Funcionalidades do sistema
+### Funcionalidades do sistema:
 
 #### Videoconferência
 - Vídeo e áudio em tempo real usando WebRTC
@@ -92,7 +92,7 @@ Sistema completo de videoconferência educacional com detecção de atenção e 
 - **Contexto independente** por sala de aula
 - **Respostas contextuais** baseadas nos materiais do professor
 
-#### Requisitos
+### Requisitos:
 
 #### Backend
 - Python 3.8+
@@ -143,9 +143,7 @@ cd frontend
 npm start
 ```
 
-O aplicativo estará disponível em: http://localhost:3000
-
-#### Como Usar
+### Como Usar : 
 
 #### Professor
 
@@ -242,9 +240,9 @@ Sala principal de videoconferência com:
 - Chat em tempo real
 - Transcrição automática
 - Dashboard de atenção (professor)
-- **AI Assistant v2 flutuante** 
+- **AI Assistant flutuante** 
 
-#### AIAssistantV2 
+#### AIAssistant
 Assistente de IA com interface flutuante:
 - Botão roxo no canto inferior direito
 - Janela expansível de chat
@@ -267,7 +265,7 @@ Context React para gerenciamento de autenticação:
 - Validação de permissões (professor vs aluno)
 - Tokens expiram após 24 horas
 
-#### Banco de Dados
+### Banco de Dados:
 
 SQLite com as seguintes tabelas:
 
@@ -281,8 +279,7 @@ SQLite com as seguintes tabelas:
 - **ai_conversations** - Histórico de conversas com IA
 
 
-
-#### Tecnologias Utilizadas
+### Tecnologias Utilizadas:
 
 #### Backend
 - FastAPI - Framework web assíncrono
@@ -305,6 +302,12 @@ SQLite com as seguintes tabelas:
 - face-api.js - Detecção facial
 - Web Speech API - Reconhecimento de voz
 
+### Arquitetura do Agente:
+
+- O sistema utiliza RAG para que a IA responda baseada nos materiais específicos da aula, não apenas em conhecimento geral. Isso garante respostas contextualizadas e precisas.
+- Suporta PDF, DOCX, TXT, MD
+- Usa loaders específicos do LangChain para cada tipo
+- Usa  a Groq API - LLM rápido (Llama 3.3 70B) para geração de respostas
 
 
 
